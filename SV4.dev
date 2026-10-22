@@ -1,6 +1,6 @@
 [Project]
-filename=Test UC.dev
-name=Test UC
+FileName=SV4.dev
+Name=SV4
 Type=1
 Ver=2
 ObjFiles=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=Test UC.exe
+OverrideOutputName=
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;0;0
+CompilerSettings=0000000000000000000000000
 UnitCount=10
 
 [VersionInfo]
@@ -39,38 +39,18 @@ Build=0
 LanguageID=1033
 CharsetID=1252
 CompanyName=
-FileVersion=1.0.0.0
+FileVersion=
 FileDescription=Developed using the Dev-C++ IDE
 InternalName=
 LegalCopyright=
 LegalTrademarks=
 OriginalFilename=
 ProductName=
-ProductVersion=1.0.0.0
+ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=src\AcceptanceReport.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
-FileName=src\ConstructionTeam.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit3]
 FileName=Entity.h
 CompileCpp=1
 Folder=
@@ -80,8 +60,18 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
+[Unit3]
+FileName=Repository.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit4]
-FileName=InputHelper.h
+FileName=include\WarehouseMenu.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -91,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=main.cpp
+FileName=include\Project.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -101,7 +91,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit6]
-FileName=include\AcceptanceReport.h
+FileName=include\Warehouse.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -111,7 +101,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit7]
-FileName=include\AcceptanceReportMenu.h
+FileName=include\ProjectMenu.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -121,7 +111,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit8]
-FileName=include\ConstructionTeam.h
+FileName=src\Project.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -131,7 +121,17 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit9]
-FileName=include\ConstructionTeamMenu.h
+FileName=src\Warehouse.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=InputHelper.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -141,7 +141,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit10]
-FileName=Repository.h
+FileName=main.cpp
 CompileCpp=1
 Folder=
 Compile=1

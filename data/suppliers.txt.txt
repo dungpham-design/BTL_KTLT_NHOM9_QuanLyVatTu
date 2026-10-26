@@ -1,0 +1,10 @@
+NCC01|VNPT Telecom|So 57 Huynh Thuc Khang, Ha Noi|02438353322|contact@vnpt.vn
+NCC02|Viettel Telecom|So 1 Giang Vo, Ha Noi|02462556789|support@viettel.com.vn
+NCC03|FPT Telecom|Pho Duy Tan, Cau Giay, Ha Noi|02473008888|hotro@fpt.com.vn
+NCC04|Mobifone|So 1 Pham Van Bach, Cau Giay, Ha Noi|02437831733|cskh@mobifone.vn
+NCC05|CMC Telecom|Toa nha CMC, Duy Tan, Ha Noi|02471098888|info@cmc.com.vn
+NCC06|Netnam|So 18 Hoang Quoc Viet, Ha Noi|02437930140|sales@netnam.vn
+NCC07|Global Cybersoft|Khu CN Quang Trung, TP.HCM|02854371199|contact@gcs.vn
+NCC08|Hanoi Telecom|So 1 Dinh Tien Hoang, Ha Noi|02439342888|hanoitelecom@hn.vnn.vn
+NCC09|SPT Saigon Postel|So 2 Dang Thai Than, TP.HCM|02838241363|spt@spt.vn
+NCC10|VTC Telecom|So 18 Tam Trinh, Ha Noi|02439743456|vtctelecom@vtc.vn

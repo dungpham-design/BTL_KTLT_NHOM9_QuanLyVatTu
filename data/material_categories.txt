@@ -1,0 +1,10 @@
+DM01|Cap quang|Cap quang single-mode va multi-mode dung cho du an mang LAN/WAN
+DM02|Thiet bi dinh tuyen|Router, Gateway va cac thiet bi dinh tuyen duong truyen mang
+DM03|Thiet bi chuyen mach|Switch Layer 2 va Layer 3 cho he thong mang doanh nghiep
+DM04|Day cap mang UTP|Cap mang Cat6, Cat5e chong nhieu FTP/UTP cao cấp
+DM05|Phu kien dau noi|Dau noi RJ45, Patch panel, ke tu rack 19 inch chuan
+DM06|Thiet bi phat Wifi|Access Point chuyen dung cho phu song khong day hieu suat cao
+DM07|Tu mang va rack|Tu rack 6U, 9U, 42U dung de chua va bao ve thiet bi
+DM08|Dung cu thi cong|Kiem tra cap, may han cap quang, bo bam dau mang chuyen dung
+DM09|Thiet bi nguon UPS|Bo luu dien du phong cho he thong server va thiet bi mang
+DM10|Vat tu ong gen|Ong nhua, ong gen luon day dien va mang cap tin hieu ngoai troi

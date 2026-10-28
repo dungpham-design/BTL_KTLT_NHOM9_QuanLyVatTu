@@ -1,0 +1,11 @@
+DTC01|Doi Thi Cong Cap Quang Ha Noi|Nguyen Van A|0912345678|12
+DTC02|Doi Thi Cong Tram BTS Mien Bac|Tran Van B|0987654321|15
+DTC03|Doi Trien Khai Cáp FTTH Cau Giay|Le Van C|0901122334|10
+DTC04|Doi Xay Lap Ha Tang Nam Dinh|Pham Van D|0933445566|20
+DTC05|Doi Thi Cong Tuyen Cap Bac Ninh|Hoang Van E|0977889900|14
+DTC06|Doi Bao Biet Va Xu Ly Su Co|Vu Van F|0966554433|8
+DTC07|Doi Trien Khai Tram BTS Ha Dong|Dinh Van G|0944332211|11
+DTC08|Doi Thi Cong Mạng Trung Tam|Ngo Van H|0922110099|16
+DTC09|Doi Thi Cong Cap Quang Hai Phong|Bui Van I|0955443322|18
+DTC10|Doi Ha Tang Mang Quang Ninh|Trinh Van K|0911998877|13
+234|pham|jfj|dhhff|100

@@ -1,0 +1,11 @@
+KHO01|Kho Trung Tam Ha Noi|So 1 Pham Hung, Cau Giay, Ha Noi|Nguyen Van Thu|1500
+KHO02|Kho Khu Vuc Mien Bac|KCN Tien Son, Bac Ninh|Tran Van Khoa|2000
+KHO03|Kho Du An Ha Dong|Quang Trung, Ha Dong, Ha Noi|Le Hoang Nam|800
+KHO04|Kho Vat Tu Hai Phong|So 12 Le Hong Phong, Hai Phong|Pham Minh Duc|1200
+KHO05|Kho Du An Nam Dinh|Duong Tran Hung Dao, Nam Dinh|Vu Duc Thang|600
+KHO06|Kho Trung Tam Mien Trung|KCN Hoa Khanh, Da Nang|Hoang Van Binh|1800
+KHO07|Kho Du An Quang Ninh|Phuong Bai Chay, Ha Long|Dinh Thanh Tung|900
+KHO08|Kho Du An Thanh Hoa|Thanh pho Thanh Hoa|Ngo Binh Minh|750
+KHO09|Kho Du An Thai Nguyen|Phuong Quang Trung, Thai Nguyen|Bui Huy Hoang|850
+KHO10|Kho Du An Vinh Phuc|Thanh pho Vinh Yen|Trinh Duy Hai|1000
+

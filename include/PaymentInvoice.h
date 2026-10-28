@@ -1,98 +1,65 @@
-#ifndef PAYMENT_INVOICE_MENU_H
-#define PAYMENT_INVOICE_MENU_H
+#ifndef PAYMENT_INVOICE_H
+#define PAYMENT_INVOICE_H
 
-#include "Repository.h"
-#include "PaymentInvoice.h"
-#include "InputHelper.h"
-#include <iostream>
+// Tac gia: Mai Tat Dat
+#include "Entity.h"
+#include <string>
 
-class PaymentInvoiceMenu {
+// Lop thuc the UC10: Quan ly hoa don thanh toan cho du an trien khai mang.
+class PaymentInvoice : public Entity {
 private:
-    Repository<PaymentInvoice>& repo;
+    std::string maHoaDon;
+    std::string maDuAn;
+    std::string maNhaCungCap;
+    std::string ngayLap;
+    double tongTien;
+    std::string trangThai;
+    std::string ghiChu;
+
+    static void validateField(const std::string& value,
+                              const std::string& tenTruong,
+                              bool choPhepTrong = false);
+    static bool isValidDate(const std::string& date);
 
 public:
-    PaymentInvoiceMenu(Repository<PaymentInvoice>& r) : repo(r) {}
+    // Tao hoa don rong de Repository nap du lieu tu file.
+    PaymentInvoice();
 
-    void run() {
-        int choice = 0;
-        do {
-            std::cout << "\n============= QUAN LY HOA DON THANH TOAN ============\n";
-            std::cout << "1. Them hoa don moi\n";
-            std::cout << "2. Xem danh sach hoa don\n";
-            std::cout << "3. Tim kiem hoa don theo ma\n";
-            std::cout << "4. Cap nhat thong tin hoa don\n";
-            std::cout << "5. Xoa hoa don\n";
-            std::cout << "0. Quay lai menu chinh\n";
-            std::cout << "=====================================================\n";
-            std::cout << "Nhap lua chon: ";
-            choice = InputHelper::getInt();
+    // Lay ma hoa don lam ma dinh danh duy nhat.
+    std::string getId() const override;
 
-            switch (choice) {
-                case 1: {
-                    PaymentInvoice inv;
-                    inv.input();
-                    if (repo.add(inv)) {
-                        std::cout << "=> Them hoa don thanh cong!\n";
-                    } else {
-                        std::cout << "=> Loi: Ma hoa don da ton tai hoac khong hop le!\n";
-                    }
-                    break;
-                }
-                case 2: {
-                    std::cout << "\n--- DANH SACH HOA DON THANH TOAN ---\n";
-                    PaymentInvoice::printHeader();
-                    auto list = repo.getAll();
-                    for (const auto& inv : list) {
-                        inv.display();
-                    }
-                    std::cout << "Tong so: " << list.size() << " hoa don.\n";
-                    break;
-                }
-                case 3: {
-                    std::cout << "Nhap ma hoa don can tim: ";
-                    std::string ma = InputHelper::getString();
-                    PaymentInvoice* inv = repo.findById(ma);
-                    if (inv != nullptr) {
-                        std::cout << "=> Tim thay thong tin:\n";
-                        PaymentInvoice::printHeader();
-                        inv->display();
-                    } else {
-                        std::cout << "=> Khong tim thay hoa don co ma: " << ma << "\n";
-                    }
-                    break;
-                }
-                case 4: {
-                    std::cout << "Nhap ma hoa don can cap nhat: ";
-                    std::string ma = InputHelper::getString();
-                    PaymentInvoice* inv = repo.findById(ma);
-                    if (inv != nullptr) {
-                        std::cout << "Nhap thong tin moi:\n";
-                        inv->input();
-                        repo.saveToFile();
-                        std::cout << "=> Cap nhat thanh cong!\n";
-                    } else {
-                        std::cout << "=> Khong tim thay hoa don!\n";
-                    }
-                    break;
-                }
-                case 5: {
-                    std::cout << "Nhap ma hoa don can xoa: ";
-                    std::string ma = InputHelper::getString();
-                    if (repo.remove(ma)) {
-                        std::cout << "=> Xoa thanh cong!\n";
-                    } else {
-                        std::cout << "=> Xoa that bai (khong tim thay ma)!\n";
-                    }
-                    break;
-                }
-                case 0:
-                    std::cout << "Quay lai menu chinh.\n";
-                    break;
-                default:
-                    std::cout << "Lua chon khong hop le! Vui long chon lai.\n";
-            }
-        } while (choice != 0);
-    }
+    // Cac getter cua hoa don.
+    std::string getMaHoaDon() const;
+    std::string getMaDuAn() const;
+    std::string getMaNhaCungCap() const;
+    std::string getNgayLap() const;
+    double getTongTien() const;
+    std::string getTrangThai() const;
+    std::string getGhiChu() const;
+
+    // Cac setter co kiem tra du lieu hop le.
+    void setMaHoaDon(const std::string& ma);
+    void setMaDuAn(const std::string& ma);
+    void setMaNhaCungCap(const std::string& ma);
+    void setNgayLap(const std::string& ngay);
+    void setTongTien(double tien);
+    void setTrangThai(const std::string& trangThaiMoi);
+    void setGhiChu(const std::string& ghiChuMoi);
+
+    // Nhap day du thong tin hoa don tu ban phim.
+    void input() override;
+
+    // Hien thi hoa don theo dang mot dong cua bang.
+    void display() const override;
+
+    // Chuyen doi hoa don thanh mot dong phan cach bang ky tu '|'.
+    std::string toString() const override;
+
+    // Nap hoa don tu mot dong file; nem exception neu sai dinh dang.
+    void fromString(const std::string& line) override;
+
+    // In tieu de bang hoa don thanh toan.
+    static void printHeader();
 };
 
 #endif

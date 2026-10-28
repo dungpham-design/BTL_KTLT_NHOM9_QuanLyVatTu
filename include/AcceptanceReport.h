@@ -1,7 +1,7 @@
 #ifndef ACCEPTANCE_REPORT_H
 #define ACCEPTANCE_REPORT_H
 
-#include "Entity.h"
+#include "../Entity.h"
 #include <string>
 #include <sstream>
 #include <iomanip>

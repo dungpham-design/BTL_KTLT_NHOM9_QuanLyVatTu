@@ -1,5 +1,5 @@
 #include "../include/ConstructionTeam.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 ConstructionTeam::ConstructionTeam() : maDoiTC(""), tenDoi(""), doiTruong(""), soDienThoai(""), soLuongNhanSu(0) {}
 

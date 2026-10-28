@@ -1,10 +1,10 @@
 #ifndef ACCEPTANCE_REPORT_MENU_H
 #define ACCEPTANCE_REPORT_MENU_H
 
-#include "Repository.h"
+#include "../Repository.h"
 #include "AcceptanceReport.h"
 #include "ConstructionTeam.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 class AcceptanceReportMenu {
 private:

@@ -1,7 +1,7 @@
 #ifndef CONSTRUCTION_TEAM_H
 #define CONSTRUCTION_TEAM_H
 
-#include "Entity.h"
+#include "../Entity.h"
 #include <string>
 #include <sstream>
 #include <iomanip>

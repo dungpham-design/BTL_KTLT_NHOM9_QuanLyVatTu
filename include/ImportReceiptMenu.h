@@ -2,8 +2,8 @@
 #define IMPORT_RECEIPT_MENU_H
 
 #include "ImportReceipt.h"
-#include "Repository.h"
-#include "InputHelper.h"
+#include "../Repository.h"
+#include "../InputHelper.h"
 #include <iostream>
 
 class ImportReceiptMenu {
@@ -25,7 +25,7 @@ public:
             std::cout << "0. Quay lai\n";
             std::cout << "=========================================================\n";
             std::cout << "Nhap lua chon cua ban: ";
-            choice = InputHelper::getInt();
+            choice = InputHelper::getInt("");
 
             switch (choice) {
             case 1: {
@@ -59,7 +59,7 @@ public:
             case 3: {
                 std::cout << "\n--- TIM KIEM PHIEU NHAP ---\n";
                 std::cout << "Nhap ma phieu nhap can tim: ";
-                std::string id = InputHelper::getString();
+                std::string id = InputHelper::getString("");
                 ImportReceipt* found = repo.findById(id);
                 if (found != nullptr) {
                     std::cout << "Tim thay phieu nhap:\n";
@@ -74,7 +74,7 @@ public:
             case 4: {
                 std::cout << "\n--- CAP NHAT PHIEU NHAP ---\n";
                 std::cout << "Nhap ma phieu nhap can cap nhat: ";
-                std::string id = InputHelper::getString();
+                std::string id = InputHelper::getString("");
                 ImportReceipt* found = repo.findById(id);
                 if (found != nullptr) {
                     std::cout << "Nhap thong tin moi:\n";
@@ -90,7 +90,7 @@ public:
             case 5: {
                 std::cout << "\n--- XOA PHIEU NHAP ---\n";
                 std::cout << "Nhap ma phieu nhap can xoa: ";
-                std::string id = InputHelper::getString();
+                std::string id = InputHelper::getString("");
                 if (repo.remove(id)) {
                     repo.saveToFile();
                     std::cout << "Xoa phieu nhap thanh cong!\n";

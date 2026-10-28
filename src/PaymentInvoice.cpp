@@ -1,6 +1,6 @@
 // Tac gia: Mai Tat Dat
-#include "PaymentInvoice.h"
-#include "InputHelper.h"
+#include "../include/PaymentInvoice.h"
+#include "../InputHelper.h"
 
 #include <cctype>
 #include <iomanip>

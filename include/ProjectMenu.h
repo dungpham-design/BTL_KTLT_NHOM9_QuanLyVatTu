@@ -1,9 +1,9 @@
 #ifndef PROJECT_MENU_H
 #define PROJECT_MENU_H
 
-#include "Repository.h"
+#include "../Repository.h"
 #include "Project.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 class ProjectMenu {
 private:

@@ -3,8 +3,8 @@
 
 // Tac gia: Mai Tat Dat
 #include "Supplier.h"
-#include "Repository.h"
-#include "InputHelper.h"
+#include "../Repository.h"
+#include "../InputHelper.h"
 
 #include <cctype>
 #include <exception>

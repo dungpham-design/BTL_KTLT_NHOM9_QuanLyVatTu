@@ -2,7 +2,7 @@
 #define PAYMENT_INVOICE_H
 
 // Tac gia: Mai Tat Dat
-#include "Entity.h"
+#include "../Entity.h"
 #include <string>
 
 // Lop thuc the UC10: Quan ly hoa don thanh toan cho du an trien khai mang.

@@ -2,9 +2,9 @@
 #define PAYMENT_INVOICE_MENU_H
 
 // Tac gia: Mai Tat Dat
-#include "Repository.h"
+#include "../Repository.h"
 #include "PaymentInvoice.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 #include <iostream>
 #include <sstream>

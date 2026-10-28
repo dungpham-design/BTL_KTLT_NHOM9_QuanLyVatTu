@@ -1,5 +1,5 @@
-#include "include/Warehouse.h"
-#include "InputHelper.h"
+#include "../include/Warehouse.h"
+#include "../InputHelper.h"
 
 Warehouse::Warehouse() : maKho(""), tenKho(""), diaChiKho(""), nguoiQuanLy(""), sucChua(0) {}
 

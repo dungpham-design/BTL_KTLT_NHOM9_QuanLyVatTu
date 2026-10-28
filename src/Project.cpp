@@ -1,5 +1,5 @@
-#include "include/Project.h"
-#include "InputHelper.h"
+#include "../include/Project.h"
+#include "../InputHelper.h"
 
 Project::Project() : maDA(""), tenDA(""), diaBan(""), ngayBatDau(""), ngayHoanThanhDuKien(""), trangThai("") {}
 

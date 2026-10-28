@@ -1,4 +1,4 @@
-#include "MaterialCategory.h"
+#include "../include/MaterialCategory.h"
 #include <sstream>
 #include <iomanip>
 
@@ -13,11 +13,11 @@ std::string MaterialCategory::getId() const {
 
 void MaterialCategory::input() {
     std::cout << "Nhap ma danh muc: ";
-    maDanhMuc = InputHelper::getString();
+    maDanhMuc = InputHelper::getString("");
     std::cout << "Nhap ten danh muc: ";
-    tenDanhMuc = InputHelper::getString();
+    tenDanhMuc = InputHelper::getString("");
     std::cout << "Nhap mo ta: ";
-    moTa = InputHelper::getString();
+    moTa = InputHelper::getString("");
 }
 
 void MaterialCategory::display() const {

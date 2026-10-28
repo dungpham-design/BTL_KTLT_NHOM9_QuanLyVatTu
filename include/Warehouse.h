@@ -1,7 +1,7 @@
 #ifndef WAREHOUSE_H
 #define WAREHOUSE_H
 
-#include "Entity.h"
+#include "../Entity.h"
 #include <string>
 #include <sstream>
 #include <iomanip>
@@ -12,11 +12,12 @@ private:
     std::string tenKho;
     std::string diaChiKho;
     std::string nguoiQuanLy;
-    int sucChua; // S?c ch?a (m2 ho?c s? t?n)
+    int sucChua; // Suc chua (m2 hoac so ton)
 
 public:
     Warehouse();
     Warehouse(std::string ma, std::string ten, std::string diaChi, std::string ql, int sc);
+    ~Warehouse() override = default;
 
     // Getters & Setters
     std::string getId() const override { return maKho; }
@@ -34,7 +35,7 @@ public:
     int getSucChua() const { return sucChua; }
     void setSucChua(int sc) { sucChua = sc; }
 
-    // Ghi ðè hàm thu?n ?o t? Entity
+    // Ghi dè các hàm thu?n ?o t? l?p Entity
     void input() override;
     void display() const override;
     std::string toString() const override;

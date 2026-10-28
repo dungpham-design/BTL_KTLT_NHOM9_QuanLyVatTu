@@ -1,8 +1,8 @@
 #ifndef MATERIAL_CATEGORY_H
 #define MATERIAL_CATEGORY_H
 
-#include "Entity.h"
-#include "InputHelper.h"
+#include "../Entity.h"
+#include "../InputHelper.h"
 #include <string>
 #include <iomanip>
 #include <iostream>

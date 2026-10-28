@@ -1,8 +1,8 @@
 #ifndef IMPORT_RECEIPT_H
 #define IMPORT_RECEIPT_H
 
-#include "Entity.h"
-#include "InputHelper.h"
+#include "../Entity.h"
+#include "../InputHelper.h"
 #include <string>
 #include <iomanip>
 #include <iostream>

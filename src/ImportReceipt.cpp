@@ -1,4 +1,4 @@
-#include "ImportReceipt.h"
+#include "../include/ImportReceipt.h"
 #include <sstream>
 #include <iomanip>
 
@@ -13,16 +13,20 @@ std::string ImportReceipt::getId() const {
 
 void ImportReceipt::input() {
     std::cout << "Nhap ma phieu nhap: ";
-    maPhieuNhap = InputHelper::getString();
-    std::cout << "Nhap ngay nhap (DD/MM/YYYY): ";
-    ngayNhap = InputHelper::getString();
+    maPhieuNhap = InputHelper::getString(""); // Thêm "" vào đây
+
+    std::cout << "Nhap ngay nhap: ";
+    ngayNhap = InputHelper::getString("");
+
     std::cout << "Nhap ma nha cung cap: ";
-    maNhaCungCap = InputHelper::getString();
+    maNhaCungCap = InputHelper::getString("");
+
     std::cout << "Nhap ma nhan vien kho: ";
-    maNhanVien = InputHelper::getString();
+    maNhanVien = InputHelper::getString("");
+
     std::cout << "Nhap tong tien nhap: ";
     while (true) {
-        tongTien = static_cast<double>(InputHelper::getInt()); // Co the dieu chinh thanh double neu InputHelper ho tro
+        tongTien = static_cast<double>(InputHelper::getInt(""));
         if (tongTien >= 0) break;
         std::cout << "Tong tien khong duoc am. Vui long nhap lai: ";
     }

@@ -1,0 +1,58 @@
+# Project: Test
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o src/AcceptanceReport.o src/ConstructionTeam.o src/ExportReceipt.o src/ImportReceipt.o src/Material.o src/MaterialCategory.o src/PaymentInvoice.o src/Project.o src/Supplier.o src/Warehouse.o
+LINKOBJ  = main.o src/AcceptanceReport.o src/ConstructionTeam.o src/ExportReceipt.o src/ImportReceipt.o src/Material.o src/MaterialCategory.o src/PaymentInvoice.o src/Project.o src/Supplier.o src/Warehouse.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = Test.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+src/AcceptanceReport.o: src/AcceptanceReport.cpp
+	$(CPP) -c src/AcceptanceReport.cpp -o src/AcceptanceReport.o $(CXXFLAGS)
+
+src/ConstructionTeam.o: src/ConstructionTeam.cpp
+	$(CPP) -c src/ConstructionTeam.cpp -o src/ConstructionTeam.o $(CXXFLAGS)
+
+src/ExportReceipt.o: src/ExportReceipt.cpp
+	$(CPP) -c src/ExportReceipt.cpp -o src/ExportReceipt.o $(CXXFLAGS)
+
+src/ImportReceipt.o: src/ImportReceipt.cpp
+	$(CPP) -c src/ImportReceipt.cpp -o src/ImportReceipt.o $(CXXFLAGS)
+
+src/Material.o: src/Material.cpp
+	$(CPP) -c src/Material.cpp -o src/Material.o $(CXXFLAGS)
+
+src/MaterialCategory.o: src/MaterialCategory.cpp
+	$(CPP) -c src/MaterialCategory.cpp -o src/MaterialCategory.o $(CXXFLAGS)
+
+src/PaymentInvoice.o: src/PaymentInvoice.cpp
+	$(CPP) -c src/PaymentInvoice.cpp -o src/PaymentInvoice.o $(CXXFLAGS)
+
+src/Project.o: src/Project.cpp
+	$(CPP) -c src/Project.cpp -o src/Project.o $(CXXFLAGS)
+
+src/Supplier.o: src/Supplier.cpp
+	$(CPP) -c src/Supplier.cpp -o src/Supplier.o $(CXXFLAGS)
+
+src/Warehouse.o: src/Warehouse.cpp
+	$(CPP) -c src/Warehouse.cpp -o src/Warehouse.o $(CXXFLAGS)

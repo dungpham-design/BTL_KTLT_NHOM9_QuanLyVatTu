@@ -1,7 +1,7 @@
 #ifndef SUPPLIER_H
 #define SUPPLIER_H
 
-#include "Entity.h"
+#include "../Entity.h"
 #include <string>
 
 // Tac gia: Mai Tat Dat

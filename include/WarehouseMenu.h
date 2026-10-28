@@ -1,9 +1,9 @@
 #ifndef WAREHOUSE_MENU_H
 #define WAREHOUSE_MENU_H
 
-#include "Repository.h"
+#include "../Repository.h"
 #include "Warehouse.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 class WarehouseMenu {
 private:

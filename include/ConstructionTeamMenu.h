@@ -1,9 +1,9 @@
 #ifndef CONSTRUCTION_TEAM_MENU_H
 #define CONSTRUCTION_TEAM_MENU_H
 
-#include "Repository.h"
+#include "../Repository.h"
 #include "ConstructionTeam.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 class ConstructionTeamMenu {
 private:

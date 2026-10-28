@@ -1,7 +1,7 @@
 #ifndef PROJECT_H
 #define PROJECT_H
 
-#include "Entity.h"
+#include "../Entity.h"
 #include <string>
 #include <sstream>
 #include <iomanip>

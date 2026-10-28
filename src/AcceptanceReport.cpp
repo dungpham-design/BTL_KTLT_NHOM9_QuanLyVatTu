@@ -1,5 +1,5 @@
 #include "../include/AcceptanceReport.h"
-#include "InputHelper.h"
+#include "../InputHelper.h"
 
 AcceptanceReport::AcceptanceReport() : maPNT(""), maDA(""), maDoiTC(""), ngayNghiemThu(""), danhGia(""), chiPhi(0.0) {}
 

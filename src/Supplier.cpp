@@ -1,6 +1,6 @@
 // Tac gia: Mai Tat Dat
-#include "Supplier.h"
-#include "InputHelper.h"
+#include "../include/Supplier.h"
+#include "../InputHelper.h"
 
 #include <cctype>
 #include <iomanip>

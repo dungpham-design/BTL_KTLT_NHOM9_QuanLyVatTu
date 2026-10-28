@@ -1,0 +1,10 @@
+DOI01|Doi Thi Cong So 1|Le Van C|0901112233|10
+DOI02|Doi Thi Cong Quang Mien Bac|Pham Van D|0904445566|15
+DOI03|Doi Lap Dat Thiet Bi Mien Nam|Tran Van E|0907778899|12
+DOI04|Doi Ke Cap Ha Bieu|Nguyen Van F|0911223344|8
+DOI05|Doi Thi Cong Mang LAN Ha Noi|Hoang Van G|0922334455|14
+DOI06|Doi Ky Thuat Han Cap Quang|Bui Van H|0933445566|6
+DOI07|Doi Thi Cong Truyen Dan Da Nang|Dang Van I|0944556677|11
+DOI08|Doi Thi Cong Ha Tang Hai Phong|Vu Van K|0955667788|9
+DOI09|Doi Lap Dat Dai Truyen Thong|Trinh Van L|0966778899|16
+DOI10|Doi Bao Tri & Su Co Cap Cap|Phan Van M|0977889900|7

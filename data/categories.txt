@@ -1,0 +1,10 @@
+DM01|Thiet bi mang|Cac thiet bi router, switch va access point
+DM02|Cap va Phu kien|Cap mang UTP, cap quang, hat mang, hop phoi quang
+DM03|Thiet bi luu dien|Cac loai UPS, bo tich dien va nguon phu
+DM04|Tu rack va Ke|Tu rack 19 inch, khay truot, thanh quan ly cap
+DM05|Dung cu thi cong|Kiem bam cap, may do quang, dao tuot cap
+DM06|Thiet bi bao mat|Firewall, thiet bi giam sat luu luong
+DM07|Gia do va Phu kien treo|Gia treo tu, cot anten, xà treo cap
+DM08|Thiet bi truyen dan|Module SFP, converter quang, bo khuach dai
+DM09|Phan mem va License|License Windows Server, phan mem giam sat
+DM10|Vat tu phu|Bang keo dien, day rut, de nhua, oc vit

@@ -1,0 +1,10 @@
+DA01|Trien khai mang LAN PTIT|Ha Noi|01/10/2026|15/11/2026|150000000
+DA02|Lap dat Wifi Toa nha A1|Ha Noi|10/10/2026|25/10/2026|80000000
+DA03|Bao tri he thong Quang Bac Ninh|Bac Ninh|01/11/2026|01/12/2026|120000000
+DA04|Nang cap Ha tang Server CN2|TP HCM|15/09/2026|20/10/2026|200000000
+DA05|Thi cong Mang Chi nhanh Hai Phong|Hai Phong|05/10/2026|10/11/2026|95000000
+DA06|Thi cong Cap quang KCN Hoa Khanh|Da Nang|12/10/2026|30/11/2026|175000000
+DA07|Lap dat Mang LAN B?nh vien Can Tho|Can Tho|20/10/2026|15/12/2026|210000000
+DA08|Thi cong Ha tang Wifi Khach san Quang Ninh|Quang Ninh|01/11/2026|20/12/2026|110000000
+DA09|Bao tri Mang LAN Truong Dai hoc Thai Nguyen|Thai Nguyen|05/11/2026|05/12/2026|65000000
+DA10|Trien khai Phong Data Center Binh Duong|Binh Duong|10/11/2026|30/12/2026|350000000

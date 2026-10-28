@@ -2,4 +2,8 @@
 *.o
 *.gch
 *.layout
+<<<<<<< HEAD
 *.win
+=======
+*.win
+>>>>>>> a10831c9a9efcd947cb94e2952bf2ad54d603dff
